@@ -10,13 +10,13 @@
 
     android:layout_margin="10sp"
     android:orientation="horizontal"
-    app:layout_constraintCircleRadius="10dp"
+    app:layout_constraintCircleRadius="10sp"
     >
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
         android:background="@color/colorBlack"
         android:scaleType="fitXY"
         android:contentDescription="@string/todo" />
